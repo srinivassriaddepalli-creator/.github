@@ -1,0 +1,33 @@
+#JSON version
+{
+  "name": "Srinivas",
+  "age": 31,
+  "languages": [
+    "Telugu",
+    "Hindi"
+  ],
+  "person": {
+    "name": "Vijay",
+    "address": {
+      "city": {
+        "name": "Hyderabad",
+        "pincode": 500081
+      }
+    },
+    "phone": {
+      "type": "home",
+      "number": 1234567890
+    }
+  }
+}
+
+# Yaml version
+name = Srinivas
+age = 31
+languages:
+    - Telugu
+    - Hindi
+
+Indentation changes based on the levels. 
+2 spaces for first level and 4 spaces for 2nd level list.
+

@@ -1,0 +1,28 @@
+name: test workflow
+
+on: 
+  workflow dispatch:
+
+  on:
+    push:
+      branches:
+   
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run tests
+        run: |
+          pwd
+          cd ~
+          echo "Running tests..."
+          # Add your test commands here
+          echo "Tests completed."
+      - name: verify test results
+        run: |
+          echo "Verifying test results..."
+          # Add your verification commands here
+          echo "Verification completed."

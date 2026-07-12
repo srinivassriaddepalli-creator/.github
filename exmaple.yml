@@ -1,0 +1,15 @@
+name: Srinivas
+age: 31
+languages:
+  - Telugu
+  - Hindi
+
+person:
+  name: Vijay
+  address:
+    city:
+      name: Hyderabad
+      pincode: 500081
+  phone:
+    type: home
+    number: 1234567890
